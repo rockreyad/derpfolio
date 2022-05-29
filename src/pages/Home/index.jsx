@@ -3,13 +3,14 @@ import Header from "../../components/Header";
 import About from "../About";
 import Service from "../Service";
 import Experience from "../Experience";
+import Testimonial from "../Testimonial";
+import Contact from "../Contact";
 import Work from "../Work";
 
 const Home = () => {
   return (
     <div className="bg-gray-900 p-4">
       {/* Header */}
-
       <Header />
       {/* Home Content */}
 
@@ -59,15 +60,17 @@ const Home = () => {
       </div>
 
       {/* Services */}
-
-      <Service />
+      <div className="mt-32">
+        <Service />
+      </div>
       {/* Experience */}
       <Experience />
       {/* Recent Works */}
       <Work />
       {/* Testimonial */}
-
+      <Testimonial />
       {/* Contact */}
+      <Contact />
     </div>
   );
 };
