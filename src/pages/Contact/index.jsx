@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="">
       <h2 className="text-white font-bold text-2xl">Let's Talk</h2>
-      <div className="flex mt-8 justify-between">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1  gap-5 pb-1 mt-8">
         <div>
           <form className="w-full max-w-lg border p-2 rounded">
             <div className="flex flex-wrap -mx-3 mb-6">
@@ -101,18 +101,33 @@ const Contact = () => {
           </form>
         </div>
 
-        <div className="space-y-10">
-          <div className="border p-3 rounded text-white">
-            <p className="text-xl font-semibold">Dhaka, Bangladesh</p>
-            <span>Address</span>
+        <div className="space-y-5 lg:space-y-10">
+          <div className="border p-3 rounded text-white flex items-center">
+            <div>
+              <i class="fa-solid fa-address-book w-8 h-8"></i>
+            </div>
+            <div className="flex flex-col">
+              <p className="text-xl font-semibold">Dhaka, Bangladesh</p>
+              <span>Address</span>
+            </div>
           </div>
-          <div className="border p-3 rounded text-white">
-            <p className="text-xl font-semibold">rockreyad@gmail.com</p>
-            <span>Contact Mail</span>
+          <div className="border p-3 rounded text-white flex items-center">
+            <div>
+              <i class="fa-solid fa-envelope w-8 h-8"></i>
+            </div>
+            <div className="flex flex-col">
+              <p className="text-xl font-semibold">rockreyad@gmail.com</p>
+              <span>Contact Mail</span>
+            </div>
           </div>
-          <div className="border p-3 rounded text-white">
-            <p className="text-xl font-semibold">+880 1784 06 1111</p>
-            <span>Official Phone</span>
+          <div className="border p-3 rounded text-white flex items-center">
+            <div>
+              <i class="fa-solid fa-phone w-8 h-8"></i>
+            </div>
+            <div className="flex flex-col">
+              <p className="text-xl font-semibold">+880 1784 06 1111</p>
+              <span>Official Phone</span>
+            </div>
           </div>
         </div>
       </div>

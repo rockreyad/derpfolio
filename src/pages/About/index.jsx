@@ -1,13 +1,16 @@
 import React from "react";
+import AboutNav from "../../components/Header/Navbar/AboutNav";
 
 const About = () => {
   return (
     <div className="text-white">
-      <p className="text-2xl">About Me</p>
+      <h2 className="text-2xl font-bold">About Me</h2>
 
       {/* Nav Bar About */}
 
-      <p>Selecting Navbar (About,Skill, Social Media, Award</p>
+      <div className="mt-8">
+        <AboutNav color={"blue"} />
+      </div>
     </div>
   );
 };

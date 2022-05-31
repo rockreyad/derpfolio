@@ -2,9 +2,9 @@ import React from "react";
 
 const ProjectCard = ({ name, id, category, image }) => {
   return (
-    <div className=" h-fit rounded p-1 duration-500 hover:bg-gray-200 hover:p-2 hover:text-gray-500 text-gray-500">
+    <div className=" h-fit rounded p-1 duration-500 hover:bg-gray-200 hover:p-2 hover:text-gray-500 text-gray-500 shadow-md hover:shadow-gray-400 shadow-indigo-400">
       <img
-        src="https://images.unsplash.com/photo-1565440707934-c9bacbad2146?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGFuaW1hbHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=80"
+        src="http://follio-react.wpocean.com/static/media/img-2.c17aa951.jpg"
         className=" translate-y-50 h-36 w-full transform rounded object-cover hover:shadow-2xl"
         alt=""
       />
